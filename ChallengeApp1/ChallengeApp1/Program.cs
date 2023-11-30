@@ -1,18 +1,22 @@
 ﻿// praca domowa
 
-var name = "Ewa";
-char sex = 'K';
-var age = 33;
+string imie = "Ewa";
+string plec = "kobieta";
+int wiek = 33;
 
-if (name == "Ewa" && age == 25 && sex == 'K')
+if (plec.ToLower() == "kobieta" && wiek < 30)
 {
-    Console.WriteLine("Kobieta ponizej 30 lat");
+    Console.WriteLine("Kobieta poniżej 30 lat.");
 }
-else if (name == "Ewa" && sex == 'K' && age == 33)
+else if (imie == "Ewa" && wiek == 33)
 {
-    Console.WriteLine("Ewa lat 33");
+    Console.WriteLine("Ewa, lat 33.");
 }
-else if (name == "Ewa" && age <= 17  && sex == 'k')
+else if (wiek < 18)
 {
-    Console.WriteLine("Niepelnoletni Mezczyzna");
+    Console.WriteLine("Niepełnoletni.");
+}
+else
+{
+    Console.WriteLine("Inne.");
 }
