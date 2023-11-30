@@ -13,7 +13,7 @@ else if (name == "Ewa" && wiek == 33)
 }
 else if (wiek < 18)
 {
-    Console.WriteLine("Niepełnioletnia Kobieta.");
+    Console.WriteLine("Niepełnioletnia Osoba.");
 }
 else
 {
